@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <aop:aspectj-autoproxy />
+
+    <bean id="myAspect" class="aop002.MyAspect"/>
+    <bean id="boy" class="aop002.Boy"/>
+    <bean id="dataSource" class="com.bridgetec.common.SecurityBasicDataSource" destroy-method="close" depends-on="precompareDataSourceAccount">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="url" value="jdbc:oracle:thin:@127.0.0.1:TEST" />
+        <property name="username" value="TEST" />
+        <property name="password" value="TEST" />
+        <property name="defaultAutoCommit" value="true" />
+        <property name="initialSize" value="5" />
+        <property name="maxTotal" value="30" />
+        <property name="maxIdle" value="5" />
+        <property name="maxWaitMillis" value="30000" />
+        <property name="validationQuery" value="SELECT 1 FROM DUAL" />
+        <property name="testOnBorrow" value="true" />
+        <property name="testOnReturn" value="false" />
+        <property name="testWhileIdle" value="true" />
+        <property name="timeBetweenEvictionRunsMillis" value="60000" />
+    </bean>
+
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <aop:config>
+        <aop:pointcut id="requiredTx" expression="execution(* com.test..service.*Service.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="requiredTx" />
+    </aop:config>
+
+</beans>
