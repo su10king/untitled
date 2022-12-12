@@ -7,7 +7,7 @@ public class AbsrtactDriver {
         동물들[0] = new 쥐();
         동물들[1] = new 고양이();
 //        동물들[2] = new 강아지();
-//        동물들[3] = new 송아지();
+        동물들[3] = new 송아지();
         동물들[4] = new 병아리();
 
         for (int i = 0; i < 동물들.length; i++) {
