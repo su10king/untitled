@@ -10,6 +10,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <aop:aspectj-autoproxy />
 
+
     <bean id="myAspect" class="aop002.MyAspect"/>
     <bean id="boy" class="aop002.Boy"/>
     <bean id="dataSource" class="com.bridgetec.common.SecurityBasicDataSource" destroy-method="close" depends-on="precompareDataSourceAccount">

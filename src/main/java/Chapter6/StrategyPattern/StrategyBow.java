@@ -6,3 +6,5 @@ public class StrategyBow implements Strategy {
         System.out.println("슝슝슝 활 지나간다");
     }
 }
+
+//ex6-35

@@ -11,5 +11,6 @@ public class CallByReference2 {
         System.out.println(ref_b);
 
         //기본 자료형 변수와 참조변수의 기록 위치에 대해서 물어보는 코드, 포인터 활용시 메모리 사용량을 질문하는 문제
+        //ex3-36
     }
 }

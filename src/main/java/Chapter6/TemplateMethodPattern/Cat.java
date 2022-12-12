@@ -22,3 +22,5 @@ public class Cat extends Animal {
 
     }
 }
+//ex6-20
+//ex6-23

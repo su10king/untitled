@@ -10,3 +10,5 @@ public class Proxy implements IService {
     return service1.runSomething();
     }
 }
+
+//ex 6-11

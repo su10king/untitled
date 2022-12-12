@@ -13,3 +13,5 @@ public class Decorator implements IService {
 
     }
 }
+
+//ex 6-15

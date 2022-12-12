@@ -7,5 +7,7 @@ public class ClientWithNoAdapter {
 
         sa1.runServiceA();
         sb1.runServiceB();
+
+        //ex 6-3
     }
 }

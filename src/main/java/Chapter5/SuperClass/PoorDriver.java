@@ -10,6 +10,8 @@ public class PoorDriver {
 //
 //        System.out.println(김학생.이름);
 //        System.out.println(이군인.이름);
+
+        //ex 5-4
     }
 
 }

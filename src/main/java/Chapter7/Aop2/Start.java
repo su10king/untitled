@@ -15,3 +15,5 @@ public class Start {
         //컴포넌트 어노테이션 실행파트임. XML파일에서 component name, id로 class를 지정해줘야 사용할 수 있다. 비추천 코드
     }
 }
+
+//ex 7-43

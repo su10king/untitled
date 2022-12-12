@@ -6,4 +6,6 @@ public abstract class 포유류 extends 동물 {
     }
 
     public abstract void swim();
+    //ex 3-7
+    //ex 3-19
 }

@@ -6,4 +6,7 @@ public abstract class 조류 extends 동물 {
     }
 
     public abstract void fly();
+
+    //ex3-8
+    //ex3-20
 }

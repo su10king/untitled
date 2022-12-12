@@ -8,3 +8,5 @@ public class ClientWithProxy {
     }
     //프록시 과정에 있는 메서드인 runSomething을 활용하는 패턴이라고 알려주는 것 같음. 기본제공이 아닌 메서드 활용방식이라는 이야기
 }
+
+//ex6-12

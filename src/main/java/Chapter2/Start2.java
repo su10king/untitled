@@ -10,5 +10,6 @@ public class Start2 {
         System.out.println(i);
         System.out.println(d);
 
+        //ex 2-2
     }
 }

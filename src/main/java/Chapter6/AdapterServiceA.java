@@ -6,4 +6,6 @@ public class AdapterServiceA {
     void runService() {
         sa1.runServiceA();
     }
+
+    //ex 6-4
 }

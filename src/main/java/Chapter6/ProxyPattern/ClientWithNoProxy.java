@@ -6,5 +6,6 @@ public class ClientWithNoProxy {
 
         Service service = new Service();
         System.out.println(service.runSomething());
+        //ex6-8
     }
 }

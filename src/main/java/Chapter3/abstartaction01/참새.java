@@ -11,4 +11,7 @@ public class 참새 extends 조류 {
     public void fly() {
         out.println(myClass + "날고있삼");
     }
+
+    //ex3-11
+    //ex3-22
 }

@@ -12,6 +12,8 @@ public class 동물 {
     }
 
     public void 울어보세요() { System.out.println("울어보세요 메서드 만듬");
+
+        //ex 3-6
     }
 }
 

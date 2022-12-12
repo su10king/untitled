@@ -12,5 +12,7 @@ public class ErrorDriver {
     //the final field speakable.absoluteZeroPoint
     //cannot be assigned
 //    Speakable.absoluteZeroPoint =-275.0;
+
+        //ex4-32
     }
 }

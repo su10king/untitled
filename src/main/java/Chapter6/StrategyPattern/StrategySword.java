@@ -6,3 +6,5 @@ public class StrategySword implements Strategy {
         System.out.println("죽검은 공격력이 40,100이다");
     }
 }
+
+//ex6-34

@@ -20,4 +20,5 @@ public class ClassA {
 //        System.out.println(pub = '1');
 //}
     // 패키지별로 분류됐을 때 서브클래스 참조할 수 있는 권한 및 분류를 확인할 수 있다.
+    //ex 3-33
 }

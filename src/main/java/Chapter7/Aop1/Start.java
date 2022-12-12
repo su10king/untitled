@@ -10,3 +10,4 @@ public class Start {
         juliet.runSomething();
     }
 }
+//ex 7-40

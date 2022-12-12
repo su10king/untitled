@@ -1,0 +1,24 @@
+package Chapter4.Constructor03.Super;
+
+public class 동물 {
+    void method () {
+        System.out.println("동물");
+    }
+}
+
+
+class 조류 extends 동물 {
+    void method () {
+        super.method();
+        System.out.println("조류");
+    }
+}
+
+class 펭귄 extends 동물
+{
+    void method () {
+        super.method();
+        System.out.println("펭귄");
+    }
+}
+

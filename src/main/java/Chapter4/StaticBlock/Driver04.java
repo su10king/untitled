@@ -7,5 +7,6 @@ public class Driver04 {
         System.out.println("main 메서드 시작!");
         동물 뽀로로 = new 동물();
         동물 삐카츄 = new 동물();
+        //ex4-19
     }
 }

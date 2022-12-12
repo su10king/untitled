@@ -17,3 +17,5 @@ class FeMaleDog extends Dog {
         super.Pee();
     }
 }
+
+//ex 5-3 단일 원칙 적용한 메서드

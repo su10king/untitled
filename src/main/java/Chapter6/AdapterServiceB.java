@@ -6,4 +6,6 @@ public class AdapterServiceB {
     void runService() {
         sb1.runServiceB();
     }
+
+    //ex6-5
 }

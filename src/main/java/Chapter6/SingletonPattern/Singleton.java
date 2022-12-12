@@ -14,3 +14,4 @@ public class Singleton {
     }
 
 }
+//ex 6-17

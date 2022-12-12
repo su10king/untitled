@@ -17,5 +17,6 @@ public class Start3 {
             System.out.println(i);
         }
         //k = m+p;
+        //ex 2-3
     }
 }

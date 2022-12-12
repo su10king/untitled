@@ -21,3 +21,5 @@ public class Client {
         s3 = null;
     }
 }
+
+//ex 6-18

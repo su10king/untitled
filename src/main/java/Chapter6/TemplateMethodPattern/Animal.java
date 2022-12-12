@@ -19,4 +19,4 @@ public abstract class Animal {
     }
 }
 
-
+//ex 6- 21

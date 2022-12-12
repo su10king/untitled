@@ -26,3 +26,5 @@ public class MyAspect {
     }
 
 }
+
+//ex 7-58

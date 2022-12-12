@@ -12,3 +12,5 @@ public class Driver {
         Kitty.playWithOwner();
     }
 }
+
+//ex 6-24

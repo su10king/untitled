@@ -5,3 +5,6 @@ public class KoreaTire implements Tire {
         return "한구 타이어";
     }
 }
+
+//ex7-2
+//ex7-8

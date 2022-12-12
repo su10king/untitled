@@ -13,5 +13,7 @@ public class Penguin extends Animal {
         System.out.println("%s는 %s에 살아\n ");
         System.out.println(name);
         System.out.println(habitat);
+
+        //ex3-27
     }
 }

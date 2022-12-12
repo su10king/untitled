@@ -6,3 +6,5 @@ public class StrategyGun implements Strategy {
         System.out.println("탕탕탕 빵");
     }
 }
+
+//ex 6-33

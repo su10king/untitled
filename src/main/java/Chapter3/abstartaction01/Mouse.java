@@ -8,4 +8,5 @@ public class Mouse {
     public void sing () {
         System.out.println(name + " 찍찍 !! ");
     }
+    //ex 3-2
 }

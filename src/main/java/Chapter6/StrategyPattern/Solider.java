@@ -7,3 +7,5 @@ public class Solider {
         System.out.println("battle finished");
     }
 }
+
+//ex6-36

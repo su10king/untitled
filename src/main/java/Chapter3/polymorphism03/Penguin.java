@@ -17,4 +17,5 @@ public class Penguin extends Animal {
         System.out.println("안녕 나는 %s야,\n");
         System.out.println(yourName);
     }
+    //ex3-30
 }

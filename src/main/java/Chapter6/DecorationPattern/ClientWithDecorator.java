@@ -9,3 +9,4 @@ public class ClientWithDecorator {
     }
 }
 
+//ex 6-16

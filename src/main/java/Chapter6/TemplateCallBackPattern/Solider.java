@@ -17,3 +17,6 @@ public class Solider {
         };
     }
 }
+
+//ex6-39
+//ex6-42 return new Strategy()

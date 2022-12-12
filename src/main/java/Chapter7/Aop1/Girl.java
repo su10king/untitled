@@ -18,3 +18,5 @@ public class Girl {
     }
 
 }
+
+//ex 7-39

@@ -23,6 +23,7 @@ public class Driver3 {
 
         for (int index = 0; index < animals.length; index++) {
             animals[index].showMe();
+            //3-15
         }
     }
 }

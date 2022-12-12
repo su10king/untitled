@@ -6,4 +6,6 @@ public class Animal {
     public void showName () {
         System.out.println("안녕 나는 %s야,\n");
     }
+
+    //ex3-29
 }

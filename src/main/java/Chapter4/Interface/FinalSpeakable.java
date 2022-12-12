@@ -5,4 +5,6 @@ public interface FinalSpeakable {
     public static final double absoluteZeroPoint = -275.15;
 
    // public static void sayYes();
+
+    //ex4-30
 }

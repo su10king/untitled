@@ -22,3 +22,6 @@ public class Dog extends Animal {
 
     }
 }
+
+//ex6-19
+//ex 6-22

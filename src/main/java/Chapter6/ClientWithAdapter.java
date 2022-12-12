@@ -7,5 +7,7 @@ public class ClientWithAdapter {
 
         asa1.runService();
         asb1.runService();
+
+        //ex6-6
     }
 }

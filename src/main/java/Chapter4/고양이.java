@@ -7,4 +7,7 @@ public class 고양이 extends 동물{
 
     public void test() {
     }
+
+    //ex4-3
+    //ex4-8
 }

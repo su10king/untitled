@@ -24,5 +24,7 @@ public class RichDriver {
 //
 //        System.out.println(((학생)김학생).학번); //캐스팅 필요
 //        System.out.println(((군인)이군인).군번); // 캐스팅 필요
+
+        //ex5-5
     }
 }

@@ -15,5 +15,11 @@ public class Start5 {
         share = m + p;
 
         return m - p;
+
+        //ex 2-6
+    }
+
+    public void start() {
+        System.out.println("예제 2-7 메서드");
     }
 }

@@ -24,3 +24,6 @@ public class MyAspect {
         <aop:before method="before" pointcut="execution(* runSomething())" />
     </aop:aspect>
 </aop:config>
+
+
+//ex 7-50  intellij 에서는 파일명.yml을 붙이면 사용가능함
